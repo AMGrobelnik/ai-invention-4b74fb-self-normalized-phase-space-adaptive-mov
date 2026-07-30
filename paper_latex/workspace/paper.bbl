@@ -1,0 +1,43 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Box and Jenkins(1970)]{box1970time}
+George E.~P. Box and Gwilym~M. Jenkins.
+\newblock Time series analysis: Forecasting and control.
+\newblock \emph{Holden-Day}, 1970.
+
+\bibitem[Brockwell and Davis(1991)]{brockwell1991time}
+Peter~J. Brockwell and Richard~A. Davis.
+\newblock \emph{Time Series: Data and Forecasting}.
+\newblock Springer, 1991.
+
+\bibitem[Cleveland(1979)]{cleveland1979robust}
+William~S. Cleveland.
+\newblock Robust locally weighted regression and smoothing scatterplots.
+\newblock \emph{Journal of the American Statistical Association}, 74\penalty0
+  (368):\penalty0 829--836, 1979.
+
+\bibitem[Fan and Gijbels(1996)]{fan1996local}
+Jianqing Fan and Irene Gijbels.
+\newblock Local polynomial modelling and its applications.
+\newblock \emph{Chapman and Hall}, 1996.
+
+\bibitem[Holt(1957)]{holts1957forecasting}
+Charles~C. Holt.
+\newblock Forecasting seasonals and trends by exponentially weighted moving
+  averages.
+\newblock \emph{O.N.R. Memorandum}, 52, 1957.
+
+\bibitem[Widrow et~al.(1975)Widrow, McCool, Larimore, and
+  Johnson]{widrow1975adaptive}
+Bernard Widrow, John~R. McCool, Michael~G. Larimore, and C.~Richard Johnson.
+\newblock Stationary and nonstationary learning characteristics of the lms
+  adaptive filter.
+\newblock \emph{Proceedings of the IEEE}, 63\penalty0 (8):\penalty0 1151--1162,
+  1975.
+
+\end{thebibliography}
