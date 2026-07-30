@@ -1,0 +1,36 @@
+{
+  "datasets": [
+    {
+      "dataset": "ornstein_uhlenbeck_synthetic",
+      "examples": [
+        {
+          "input": "Series trial 0, step 2",
+          "output": "0.9939021598690605",
+          "metadata_trial": 0,
+          "metadata_step": 2,
+          "predict_adaptive_ma": "0.441013086491916",
+          "predict_static_ma": "0.441013086491916",
+          "predict_naive": "0.882026172983832"
+        },
+        {
+          "input": "Series trial 0, step 3",
+          "output": "1.3838809359350241",
+          "metadata_trial": 0,
+          "metadata_step": 3,
+          "predict_adaptive_ma": "0.6253094442842975",
+          "predict_static_ma": "0.6253094442842975",
+          "predict_naive": "0.9939021598690605"
+        },
+        {
+          "input": "Series trial 0, step 4",
+          "output": "2.365939441942251",
+          "metadata_trial": 0,
+          "metadata_step": 4,
+          "predict_adaptive_ma": "0.8149523171969791",
+          "predict_static_ma": "1.0866030895959722",
+          "predict_naive": "1.3838809359350241"
+        }
+      ]
+    }
+  ]
+}

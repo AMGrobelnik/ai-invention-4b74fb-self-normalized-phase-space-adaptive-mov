@@ -1,0 +1,459 @@
+{
+  "datasets": [
+    {
+      "dataset": "ornstein_uhlenbeck_synthetic",
+      "examples": [
+        {
+          "input": "Series trial 0, step 2",
+          "output": "0.9939021598690605",
+          "metadata_trial": 0,
+          "metadata_step": 2,
+          "predict_adaptive_ma": "0.441013086491916",
+          "predict_static_ma": "0.441013086491916",
+          "predict_naive": "0.882026172983832"
+        },
+        {
+          "input": "Series trial 0, step 3",
+          "output": "1.3838809359350241",
+          "metadata_trial": 0,
+          "metadata_step": 3,
+          "predict_adaptive_ma": "0.6253094442842975",
+          "predict_static_ma": "0.6253094442842975",
+          "predict_naive": "0.9939021598690605"
+        },
+        {
+          "input": "Series trial 0, step 4",
+          "output": "2.365939441942251",
+          "metadata_trial": 0,
+          "metadata_step": 4,
+          "predict_adaptive_ma": "0.8149523171969791",
+          "predict_static_ma": "1.0866030895959722",
+          "predict_naive": "1.3838809359350241"
+        },
+        {
+          "input": "Series trial 0, step 5",
+          "output": "3.0631244928230092",
+          "metadata_trial": 0,
+          "metadata_step": 5,
+          "predict_adaptive_ma": "1.406437177682542",
+          "predict_static_ma": "1.5812408459154452",
+          "predict_naive": "2.365939441942251"
+        },
+        {
+          "input": "Series trial 0, step 6",
+          "output": "2.268173103602503",
+          "metadata_trial": 0,
+          "metadata_step": 6,
+          "predict_adaptive_ma": "1.9517117576423362",
+          "predict_static_ma": "2.2709816235667613",
+          "predict_naive": "3.0631244928230092"
+        },
+        {
+          "input": "Series trial 0, step 7",
+          "output": "2.516400002005047",
+          "metadata_trial": 0,
+          "metadata_step": 7,
+          "predict_adaptive_ma": "2.2702794935756967",
+          "predict_static_ma": "2.565745679455921",
+          "predict_naive": "2.268173103602503"
+        },
+        {
+          "input": "Series trial 0, step 8",
+          "output": "2.1890813976556935",
+          "metadata_trial": 0,
+          "metadata_step": 8,
+          "predict_adaptive_ma": "2.319503595261567",
+          "predict_static_ma": "2.6158991994768535",
+          "predict_naive": "2.516400002005047"
+        },
+        {
+          "input": "Series trial 0, step 9",
+          "output": "1.9185638319933451",
+          "metadata_trial": 0,
+          "metadata_step": 9,
+          "predict_adaptive_ma": "2.4805436876057008",
+          "predict_static_ma": "2.324551501087748",
+          "predict_naive": "2.1890813976556935"
+        },
+        {
+          "input": "Series trial 0, step 10",
+          "output": "1.9320066997631968",
+          "metadata_trial": 0,
+          "metadata_step": 10,
+          "predict_adaptive_ma": "2.3910685656159196",
+          "predict_static_ma": "2.2080150772180285",
+          "predict_naive": "1.9185638319933451"
+        },
+        {
+          "input": "Series trial 0, step 11",
+          "output": "1.8108278153673163",
+          "metadata_trial": 0,
+          "metadata_step": 11,
+          "predict_adaptive_ma": "2.164845007003957",
+          "predict_static_ma": "2.013217309804079",
+          "predict_naive": "1.9320066997631968"
+        },
+        {
+          "input": "Series trial 0, step 12",
+          "output": "2.3568817873120724",
+          "metadata_trial": 0,
+          "metadata_step": 12,
+          "predict_adaptive_ma": "2.0733759493569197",
+          "predict_static_ma": "1.8871327823746196",
+          "predict_naive": "1.8108278153673163"
+        },
+        {
+          "input": "Series trial 0, step 13",
+          "output": "2.5017124711543617",
+          "metadata_trial": 0,
+          "metadata_step": 13,
+          "predict_adaptive_ma": "2.004570033608983",
+          "predict_static_ma": "2.033238767480862",
+          "predict_naive": "2.3568817873120724"
+        },
+        {
+          "input": "Series trial 0, step 14",
+          "output": "2.3123787322853397",
+          "metadata_trial": 0,
+          "metadata_step": 14,
+          "predict_adaptive_ma": "2.1039985211180587",
+          "predict_static_ma": "2.223140691277917",
+          "predict_naive": "2.5017124711543617"
+        },
+        {
+          "input": "Series trial 0, step 15",
+          "output": "2.3030724754295187",
+          "metadata_trial": 0,
+          "metadata_step": 15,
+          "predict_adaptive_ma": "2.182761501176457",
+          "predict_static_ma": "2.3903243302505914",
+          "predict_naive": "2.3123787322853397"
+        },
+        {
+          "input": "Series trial 0, step 16",
+          "output": "2.2396023915737002",
+          "metadata_trial": 0,
+          "metadata_step": 16,
+          "predict_adaptive_ma": "2.2569746563097217",
+          "predict_static_ma": "2.372387892956407",
+          "predict_naive": "2.3030724754295187"
+        },
+        {
+          "input": "Series trial 0, step 17",
+          "output": "2.7626816889951336",
+          "metadata_trial": 0,
+          "metadata_step": 17,
+          "predict_adaptive_ma": "2.3427295715509984",
+          "predict_static_ma": "2.2850178664295195",
+          "predict_naive": "2.2396023915737002"
+        },
+        {
+          "input": "Series trial 0, step 18",
+          "output": "2.3838343882127195",
+          "metadata_trial": 0,
+          "metadata_step": 18,
+          "predict_adaptive_ma": "2.4044338220709234",
+          "predict_static_ma": "2.435118851999451",
+          "predict_naive": "2.7626816889951336"
+        },
+        {
+          "input": "Series trial 0, step 19",
+          "output": "2.301984800216898",
+          "metadata_trial": 0,
+          "metadata_step": 19,
+          "predict_adaptive_ma": "2.4003139352992826",
+          "predict_static_ma": "2.462039489593851",
+          "predict_naive": "2.3838343882127195"
+        },
+        {
+          "input": "Series trial 0, step 20",
+          "output": "1.644738450544346",
+          "metadata_trial": 0,
+          "metadata_step": 20,
+          "predict_adaptive_ma": "2.398235148885594",
+          "predict_static_ma": "2.4828336258082504",
+          "predict_naive": "2.301984800216898"
+        },
+        {
+          "input": "Series trial 0, step 21",
+          "output": "0.20376969757287222",
+          "metadata_trial": 0,
+          "metadata_step": 21,
+          "predict_adaptive_ma": "2.2733098319922744",
+          "predict_static_ma": "2.1101858796579878",
+          "predict_naive": "1.644738450544346"
+        },
+        {
+          "input": "Series trial 0, step 22",
+          "output": "0.5102020255357653",
+          "metadata_trial": 0,
+          "metadata_step": 22,
+          "predict_adaptive_ma": "1.3834976494447055",
+          "predict_static_ma": "1.3834976494447055",
+          "predict_naive": "0.20376969757287222"
+        },
+        {
+          "input": "Series trial 0, step 23",
+          "output": "0.8913999224119417",
+          "metadata_trial": 0,
+          "metadata_step": 23,
+          "predict_adaptive_ma": "1.4089058724165202",
+          "predict_static_ma": "0.7862367245509946",
+          "predict_naive": "0.5102020255357653"
+        },
+        {
+          "input": "Series trial 0, step 24",
+          "output": "0.4311774199675265",
+          "metadata_trial": 0,
+          "metadata_step": 24,
+          "predict_adaptive_ma": "1.1104189792563646",
+          "predict_static_ma": "0.535123881840193",
+          "predict_naive": "0.8913999224119417"
+        },
+        {
+          "input": "Series trial 0, step 25",
+          "output": "1.5229369899645777",
+          "metadata_trial": 0,
+          "metadata_step": 25,
+          "predict_adaptive_ma": "0.7362575032064904",
+          "predict_static_ma": "0.6109264559717444",
+          "predict_naive": "0.4311774199675265"
+        },
+        {
+          "input": "Series trial 0, step 26",
+          "output": "0.6434604536687375",
+          "metadata_trial": 0,
+          "metadata_step": 26,
+          "predict_adaptive_ma": "0.9485047774480154",
+          "predict_static_ma": "0.9485047774480154",
+          "predict_naive": "1.5229369899645777"
+        },
+        {
+          "input": "Series trial 0, step 27",
+          "output": "0.6019936669525868",
+          "metadata_trial": 0,
+          "metadata_step": 27,
+          "predict_adaptive_ma": "0.8722436965031959",
+          "predict_static_ma": "0.8658582878669473",
+          "predict_naive": "0.6434604536687375"
+        },
+        {
+          "input": "Series trial 0, step 28",
+          "output": "0.4482023752444113",
+          "metadata_trial": 0,
+          "metadata_step": 28,
+          "predict_adaptive_ma": "0.818193690593074",
+          "predict_static_ma": "0.9227970368619673",
+          "predict_naive": "0.6019936669525868"
+        },
+        {
+          "input": "Series trial 0, step 29",
+          "output": "1.1697717448991989",
+          "metadata_trial": 0,
+          "metadata_step": 29,
+          "predict_adaptive_ma": "0.7295541811595679",
+          "predict_static_ma": "0.5645521652885785",
+          "predict_naive": "0.4482023752444113"
+        },
+        {
+          "input": "Series trial 0, step 30",
+          "output": "1.7874739553594214",
+          "metadata_trial": 0,
+          "metadata_step": 30,
+          "predict_adaptive_ma": "0.7158570601912336",
+          "predict_static_ma": "0.7399892623653989",
+          "predict_naive": "1.1697717448991989"
+        },
+        {
+          "input": "Series trial 0, step 31",
+          "output": "1.6862002726719374",
+          "metadata_trial": 0,
+          "metadata_step": 31,
+          "predict_adaptive_ma": "1.0018604356139045",
+          "predict_static_ma": "1.1351493585010106",
+          "predict_naive": "1.7874739553594214"
+        },
+        {
+          "input": "Series trial 0, step 32",
+          "output": "1.7066615052058303",
+          "metadata_trial": 0,
+          "metadata_step": 32,
+          "predict_adaptive_ma": "1.138728403025511",
+          "predict_static_ma": "1.5478153243101858",
+          "predict_naive": "1.6862002726719374"
+        },
+        {
+          "input": "Series trial 0, step 33",
+          "output": "1.092102480870191",
+          "metadata_trial": 0,
+          "metadata_step": 33,
+          "predict_adaptive_ma": "1.35966197067616",
+          "predict_static_ma": "1.7267785777457298",
+          "predict_naive": "1.7066615052058303"
+        },
+        {
+          "input": "Series trial 0, step 34",
+          "output": "-0.007506001328791645",
+          "metadata_trial": 0,
+          "metadata_step": 34,
+          "predict_adaptive_ma": "1.568109553526845",
+          "predict_static_ma": "1.4949880862493192",
+          "predict_naive": "1.092102480870191"
+        },
+        {
+          "input": "Series trial 0, step 35",
+          "output": "-0.18071147585898878",
+          "metadata_trial": 0,
+          "metadata_step": 35,
+          "predict_adaptive_ma": "0.9304193282490765",
+          "predict_static_ma": "0.9304193282490765",
+          "predict_naive": "-0.007506001328791645"
+        },
+        {
+          "input": "Series trial 0, step 36",
+          "output": "-0.08446584372109989",
+          "metadata_trial": 0,
+          "metadata_step": 36,
+          "predict_adaptive_ma": "0.8593493563120355",
+          "predict_static_ma": "0.3012950012274702",
+          "predict_naive": "-0.18071147585898878"
+        },
+        {
+          "input": "Series trial 0, step 37",
+          "output": "0.5391260810148705",
+          "metadata_trial": 0,
+          "metadata_step": 37,
+          "predict_adaptive_ma": "0.5052161330334282",
+          "predict_static_ma": "-0.09089444030296011",
+          "predict_naive": "-0.08446584372109989"
+        },
+        {
+          "input": "Series trial 0, step 38",
+          "output": "1.086403397305589",
+          "metadata_trial": 0,
+          "metadata_step": 38,
+          "predict_adaptive_ma": "0.06661069002649754",
+          "predict_static_ma": "0.09131625381159393",
+          "predict_naive": "0.5391260810148705"
+        },
+        {
+          "input": "Series trial 0, step 39",
+          "output": "0.7840996488710541",
+          "metadata_trial": 0,
+          "metadata_step": 39,
+          "predict_adaptive_ma": "0.3400880396850927",
+          "predict_static_ma": "0.5136878781997866",
+          "predict_naive": "1.086403397305589"
+        },
+        {
+          "input": "Series trial 0, step 40",
+          "output": "0.554538308696281",
+          "metadata_trial": 0,
+          "metadata_step": 40,
+          "predict_adaptive_ma": "0.428890361522285",
+          "predict_static_ma": "0.8032097090638378",
+          "predict_naive": "0.7840996488710541"
+        },
+        {
+          "input": "Series trial 0, step 41",
+          "output": "-0.025192004706893423",
+          "metadata_trial": 0,
+          "metadata_step": 41,
+          "predict_adaptive_ma": "0.5759403184333389",
+          "predict_static_ma": "0.8083471182909747",
+          "predict_naive": "0.554538308696281"
+        },
+        {
+          "input": "Series trial 0, step 42",
+          "output": "-0.7326817728256917",
+          "metadata_trial": 0,
+          "metadata_step": 42,
+          "predict_adaptive_ma": "0.5999623375415077",
+          "predict_static_ma": "0.4378153176201472",
+          "predict_naive": "-0.025192004706893423"
+        },
+        {
+          "input": "Series trial 0, step 43",
+          "output": "-1.512548690855629",
+          "metadata_trial": 0,
+          "metadata_step": 43,
+          "predict_adaptive_ma": "0.14519104500868749",
+          "predict_static_ma": "-0.06777848961210138",
+          "predict_naive": "-0.7326817728256917"
+        },
+        {
+          "input": "Series trial 0, step 44",
+          "output": "-0.38590612415417125",
+          "metadata_trial": 0,
+          "metadata_step": 44,
+          "predict_adaptive_ma": "-0.42897103992298324",
+          "predict_static_ma": "-0.756807489462738",
+          "predict_naive": "-1.512548690855629"
+        },
+        {
+          "input": "Series trial 0, step 45",
+          "output": "-0.6021416026145809",
+          "metadata_trial": 0,
+          "metadata_step": 45,
+          "predict_adaptive_ma": "-0.8770455292784973",
+          "predict_static_ma": "-0.8770455292784973",
+          "predict_naive": "-0.38590612415417125"
+        },
+        {
+          "input": "Series trial 0, step 46",
+          "output": "-0.760964593158716",
+          "metadata_trial": 0,
+          "metadata_step": 46,
+          "predict_adaptive_ma": "-0.6516940390313932",
+          "predict_static_ma": "-0.8335321392081271",
+          "predict_naive": "-0.6021416026145809"
+        },
+        {
+          "input": "Series trial 0, step 47",
+          "output": "-1.3112658138678075",
+          "metadata_trial": 0,
+          "metadata_step": 47,
+          "predict_adaptive_ma": "-0.7988485567217578",
+          "predict_static_ma": "-0.5830041066424894",
+          "predict_naive": "-0.760964593158716"
+        },
+        {
+          "input": "Series trial 0, step 48",
+          "output": "-0.7913940545650717",
+          "metadata_trial": 0,
+          "metadata_step": 48,
+          "predict_adaptive_ma": "-0.7650695334488189",
+          "predict_static_ma": "-0.8914573365470347",
+          "predict_naive": "-1.3112658138678075"
+        },
+        {
+          "input": "Series trial 0, step 49",
+          "output": "-1.5192035728875402",
+          "metadata_trial": 0,
+          "metadata_step": 49,
+          "predict_adaptive_ma": "-0.866441516051544",
+          "predict_static_ma": "-0.9545414871971983",
+          "predict_naive": "-0.7913940545650717"
+        },
+        {
+          "input": "Series trial 0, step 50",
+          "output": "-1.4736533557057705",
+          "metadata_trial": 0,
+          "metadata_step": 50,
+          "predict_adaptive_ma": "-1.0957070086197838",
+          "predict_static_ma": "-1.2072878137734733",
+          "predict_naive": "-1.5192035728875402"
+        },
+        {
+          "input": "Series trial 0, step 51",
+          "output": "-1.7740213007320311",
+          "metadata_trial": 0,
+          "metadata_step": 51,
+          "predict_adaptive_ma": "-1.171296278036981",
+          "predict_static_ma": "-1.2614169943861275",
+          "predict_naive": "-1.4736533557057705"
+        }
+      ]
+    }
+  ]
+}
