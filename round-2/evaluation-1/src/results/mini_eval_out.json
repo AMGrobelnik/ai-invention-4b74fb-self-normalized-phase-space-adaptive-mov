@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "evaluation_name": "Normalized PSAMA Statistical Rigor and Error Analysis",
+    "description": "Comprehensive evaluation of normalized PSAMA against static moving average and naive persistence across multiple error metrics and statistical significance tests.",
+    "wilcoxon_static_vs_adaptive_statistic": 5054282.0,
+    "wilcoxon_static_vs_adaptive_pvalue": 3.291387329793556e-93,
+    "wilcoxon_naive_vs_adaptive_statistic": 5415839.0,
+    "wilcoxon_naive_vs_adaptive_pvalue": 7.59714620432454e-136
+  },
+  "metrics_agg": {
+    "mse_adaptive": 0.46601361274707,
+    "rmse_adaptive": 0.6826518971972978,
+    "mae_adaptive": 0.5463676460719683,
+    "mse_static": 0.38420829293943703,
+    "rmse_static": 0.6198453782512515,
+    "mae_static": 0.4924307365932046,
+    "mse_naive": 0.270316398870732,
+    "rmse_naive": 0.5199196080844922,
+    "mae_naive": 0.41251884090675495
+  },
+  "datasets": [
+    {
+      "dataset": "ornstein_uhlenbeck_synthetic",
+      "examples": [
+        {
+          "input": "Series trial 0, step 2",
+          "output": "0.9939021598690605",
+          "predict_adaptive_ma": "0.441013086491916",
+          "predict_static_ma": "0.441013086491916",
+          "predict_naive": "0.882026172983832",
+          "eval_adaptive_mse": 0.30568632745983754,
+          "eval_static_mse": 0.30568632745983754,
+          "eval_naive_mse": 0.012516236441543815
+        },
+        {
+          "input": "Series trial 0, step 3",
+          "output": "1.3838809359350241",
+          "predict_adaptive_ma": "0.6253094442842975",
+          "predict_static_ma": "0.6253094442842975",
+          "predict_naive": "0.9939021598690605",
+          "eval_adaptive_mse": 0.5754307079452085,
+          "eval_static_mse": 0.5754307079452085,
+          "eval_naive_mse": 0.15208344578190702
+        },
+        {
+          "input": "Series trial 0, step 4",
+          "output": "2.365939441942251",
+          "predict_adaptive_ma": "0.8149523171969791",
+          "predict_static_ma": "1.0866030895959722",
+          "predict_naive": "1.3838809359350241",
+          "eval_adaptive_mse": 2.4055610611256046,
+          "eval_static_mse": 1.6367015024346816,
+          "eval_naive_mse": 0.9644389092211461
+        }
+      ]
+    }
+  ]
+}

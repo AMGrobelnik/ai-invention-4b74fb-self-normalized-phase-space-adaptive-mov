@@ -1,0 +1,52 @@
+{
+  "datasets": [
+    {
+      "dataset": "evaluation_results",
+      "examples": [
+        {
+          "metrics": {
+            "overall_ma_mse": 0.06491133753963352,
+            "noise_breakdown": {
+              "0.2": {
+                "ma_mse": 0.039990383906894085,
+                "naive_mse": 0.20551967355068565,
+                "t_statistic": 5.204690485673847,
+                "p_value": 2.1964860648052566e-05,
+                "beats_naive": true
+              },
+              "0.5": {
+                "ma_mse": 0.26012589125310914,
+                "naive_mse": 0.6375656602955095,
+                "t_statistic": 9.255193357570251,
+                "p_value": 1.8037138800951254e-08,
+                "beats_naive": true
+              },
+              "0.01": {
+                "ma_mse": 0.00010465831567265299,
+                "naive_mse": 0.2043372927802763,
+                "t_statistic": 4.040785423291036,
+                "p_value": 0.0010670820556304718,
+                "beats_naive": true
+              },
+              "0.05": {
+                "ma_mse": 0.0025472053842906803,
+                "naive_mse": 0.13268434813592375,
+                "t_statistic": 4.105686408422442,
+                "p_value": 0.0003547153074968668,
+                "beats_naive": true
+              },
+              "0.1": {
+                "ma_mse": 0.010289715308903286,
+                "naive_mse": 0.21561354847686795,
+                "t_statistic": 4.705647804520824,
+                "p_value": 0.0008343886581636913,
+                "beats_naive": true
+              }
+            }
+          },
+          "status": "success"
+        }
+      ]
+    }
+  ]
+}
